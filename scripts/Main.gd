@@ -95,8 +95,17 @@ func check_word():
 		word = ""
 		try += 1
 	else:
+		WordGuesses.get_child(try).get_child(len(word) - 1).text = ""
+		
+		#show error
+		var highscore_text = LabelHighscore.text
+		LabelHighscore.text = word + " ist kein Wort!"
+		LabelHighscore.set("custom_colors/font_color", Color(0.75, 0.1, 0.1))
+		yield(get_tree().create_timer(2.0), "timeout")
+		LabelHighscore.text = highscore_text
+		LabelHighscore.set("custom_colors/font_color", Color(1.0, 1.0, 1.0))
+
 		word.erase(len(word)-1, 1)
-		WordGuesses.get_child(try).get_child(len(word)).text = ""
 
 func color_letters():
 	for letter in 5:

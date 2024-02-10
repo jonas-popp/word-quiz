@@ -702,6 +702,7 @@ margin_top = 47.0
 margin_right = 360.0
 margin_bottom = 79.0
 custom_fonts/font = ExtResource( 5 )
+text = "Score: 0    Highscore: 0"
 align = 1
 valign = 1
 

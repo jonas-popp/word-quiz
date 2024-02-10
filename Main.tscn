@@ -673,20 +673,20 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Label" parent="."]
+[node name="Content" type="VBoxContainer" parent="."]
 anchor_right = 1.0
-margin_top = 20.0
+anchor_bottom = 1.0
+
+[node name="Title" type="Label" parent="Content"]
+margin_right = 360.0
 margin_bottom = 43.0
 custom_fonts/font = SubResource( 1 )
 text = "Wort Quiz"
 align = 1
 valign = 1
 uppercase = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
-[node name="ButtonRules" type="Button" parent="Title"]
+[node name="ButtonRules" type="Button" parent="Content/Title"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 30.0
@@ -696,31 +696,38 @@ custom_styles/pressed = SubResource( 67 )
 custom_styles/focus = SubResource( 67 )
 custom_styles/disabled = SubResource( 67 )
 custom_styles/normal = SubResource( 67 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
-[node name="WordGuesses" type="VBoxContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -145.5
-margin_top = -218.0
-margin_right = 145.5
-margin_bottom = 175.0
+[node name="Highscore" type="Label" parent="Content"]
+margin_top = 47.0
+margin_right = 360.0
+margin_bottom = 79.0
+custom_fonts/font = ExtResource( 5 )
+align = 1
+valign = 1
+
+[node name="Spacing1" type="Control" parent="Content"]
+margin_top = 83.0
+margin_right = 360.0
+margin_bottom = 83.0
+size_flags_vertical = 2
+
+[node name="WordGuesses" type="VBoxContainer" parent="Content"]
+margin_top = 104.0
+margin_right = 360.0
+margin_bottom = 484.0
 custom_constants/separation = 10
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer1" type="HBoxContainer" parent="WordGuesses"]
-margin_right = 291.0
+[node name="HBoxContainer1" type="HBoxContainer" parent="Content/WordGuesses"]
+margin_right = 360.0
 margin_bottom = 55.0
 alignment = 1
 
-[node name="Letter1" type="Label" parent="WordGuesses/HBoxContainer1"]
-margin_right = 55.0
+[node name="Letter1" type="Label" parent="Content/WordGuesses/HBoxContainer1"]
+margin_left = 34.0
+margin_right = 89.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -732,9 +739,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter2" type="Label" parent="WordGuesses/HBoxContainer1"]
-margin_left = 59.0
-margin_right = 114.0
+[node name="Letter2" type="Label" parent="Content/WordGuesses/HBoxContainer1"]
+margin_left = 93.0
+margin_right = 148.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -746,9 +753,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter3" type="Label" parent="WordGuesses/HBoxContainer1"]
-margin_left = 118.0
-margin_right = 173.0
+[node name="Letter3" type="Label" parent="Content/WordGuesses/HBoxContainer1"]
+margin_left = 152.0
+margin_right = 207.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -760,9 +767,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter4" type="Label" parent="WordGuesses/HBoxContainer1"]
-margin_left = 177.0
-margin_right = 232.0
+[node name="Letter4" type="Label" parent="Content/WordGuesses/HBoxContainer1"]
+margin_left = 211.0
+margin_right = 266.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -774,9 +781,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter5" type="Label" parent="WordGuesses/HBoxContainer1"]
-margin_left = 236.0
-margin_right = 291.0
+[node name="Letter5" type="Label" parent="Content/WordGuesses/HBoxContainer1"]
+margin_left = 270.0
+margin_right = 325.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -788,14 +795,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="WordGuesses"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="Content/WordGuesses"]
 margin_top = 65.0
-margin_right = 291.0
+margin_right = 360.0
 margin_bottom = 120.0
 alignment = 1
 
-[node name="Letter1" type="Label" parent="WordGuesses/HBoxContainer2"]
-margin_right = 55.0
+[node name="Letter1" type="Label" parent="Content/WordGuesses/HBoxContainer2"]
+margin_left = 34.0
+margin_right = 89.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -807,9 +815,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter2" type="Label" parent="WordGuesses/HBoxContainer2"]
-margin_left = 59.0
-margin_right = 114.0
+[node name="Letter2" type="Label" parent="Content/WordGuesses/HBoxContainer2"]
+margin_left = 93.0
+margin_right = 148.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -821,9 +829,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter3" type="Label" parent="WordGuesses/HBoxContainer2"]
-margin_left = 118.0
-margin_right = 173.0
+[node name="Letter3" type="Label" parent="Content/WordGuesses/HBoxContainer2"]
+margin_left = 152.0
+margin_right = 207.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -835,9 +843,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter4" type="Label" parent="WordGuesses/HBoxContainer2"]
-margin_left = 177.0
-margin_right = 232.0
+[node name="Letter4" type="Label" parent="Content/WordGuesses/HBoxContainer2"]
+margin_left = 211.0
+margin_right = 266.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -849,9 +857,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter5" type="Label" parent="WordGuesses/HBoxContainer2"]
-margin_left = 236.0
-margin_right = 291.0
+[node name="Letter5" type="Label" parent="Content/WordGuesses/HBoxContainer2"]
+margin_left = 270.0
+margin_right = 325.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -863,14 +871,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="WordGuesses"]
+[node name="HBoxContainer3" type="HBoxContainer" parent="Content/WordGuesses"]
 margin_top = 130.0
-margin_right = 291.0
+margin_right = 360.0
 margin_bottom = 185.0
 alignment = 1
 
-[node name="Letter1" type="Label" parent="WordGuesses/HBoxContainer3"]
-margin_right = 55.0
+[node name="Letter1" type="Label" parent="Content/WordGuesses/HBoxContainer3"]
+margin_left = 34.0
+margin_right = 89.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -882,9 +891,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter2" type="Label" parent="WordGuesses/HBoxContainer3"]
-margin_left = 59.0
-margin_right = 114.0
+[node name="Letter2" type="Label" parent="Content/WordGuesses/HBoxContainer3"]
+margin_left = 93.0
+margin_right = 148.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -896,9 +905,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter3" type="Label" parent="WordGuesses/HBoxContainer3"]
-margin_left = 118.0
-margin_right = 173.0
+[node name="Letter3" type="Label" parent="Content/WordGuesses/HBoxContainer3"]
+margin_left = 152.0
+margin_right = 207.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -910,9 +919,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter4" type="Label" parent="WordGuesses/HBoxContainer3"]
-margin_left = 177.0
-margin_right = 232.0
+[node name="Letter4" type="Label" parent="Content/WordGuesses/HBoxContainer3"]
+margin_left = 211.0
+margin_right = 266.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -924,9 +933,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter5" type="Label" parent="WordGuesses/HBoxContainer3"]
-margin_left = 236.0
-margin_right = 291.0
+[node name="Letter5" type="Label" parent="Content/WordGuesses/HBoxContainer3"]
+margin_left = 270.0
+margin_right = 325.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -938,14 +947,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer4" type="HBoxContainer" parent="WordGuesses"]
+[node name="HBoxContainer4" type="HBoxContainer" parent="Content/WordGuesses"]
 margin_top = 195.0
-margin_right = 291.0
+margin_right = 360.0
 margin_bottom = 250.0
 alignment = 1
 
-[node name="Letter1" type="Label" parent="WordGuesses/HBoxContainer4"]
-margin_right = 55.0
+[node name="Letter1" type="Label" parent="Content/WordGuesses/HBoxContainer4"]
+margin_left = 34.0
+margin_right = 89.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -957,9 +967,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter2" type="Label" parent="WordGuesses/HBoxContainer4"]
-margin_left = 59.0
-margin_right = 114.0
+[node name="Letter2" type="Label" parent="Content/WordGuesses/HBoxContainer4"]
+margin_left = 93.0
+margin_right = 148.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -971,9 +981,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter3" type="Label" parent="WordGuesses/HBoxContainer4"]
-margin_left = 118.0
-margin_right = 173.0
+[node name="Letter3" type="Label" parent="Content/WordGuesses/HBoxContainer4"]
+margin_left = 152.0
+margin_right = 207.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -985,9 +995,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter4" type="Label" parent="WordGuesses/HBoxContainer4"]
-margin_left = 177.0
-margin_right = 232.0
+[node name="Letter4" type="Label" parent="Content/WordGuesses/HBoxContainer4"]
+margin_left = 211.0
+margin_right = 266.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -999,9 +1009,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter5" type="Label" parent="WordGuesses/HBoxContainer4"]
-margin_left = 236.0
-margin_right = 291.0
+[node name="Letter5" type="Label" parent="Content/WordGuesses/HBoxContainer4"]
+margin_left = 270.0
+margin_right = 325.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1013,14 +1023,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer5" type="HBoxContainer" parent="WordGuesses"]
+[node name="HBoxContainer5" type="HBoxContainer" parent="Content/WordGuesses"]
 margin_top = 260.0
-margin_right = 291.0
+margin_right = 360.0
 margin_bottom = 315.0
 alignment = 1
 
-[node name="Letter1" type="Label" parent="WordGuesses/HBoxContainer5"]
-margin_right = 55.0
+[node name="Letter1" type="Label" parent="Content/WordGuesses/HBoxContainer5"]
+margin_left = 34.0
+margin_right = 89.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1032,9 +1043,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter2" type="Label" parent="WordGuesses/HBoxContainer5"]
-margin_left = 59.0
-margin_right = 114.0
+[node name="Letter2" type="Label" parent="Content/WordGuesses/HBoxContainer5"]
+margin_left = 93.0
+margin_right = 148.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1046,9 +1057,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter3" type="Label" parent="WordGuesses/HBoxContainer5"]
-margin_left = 118.0
-margin_right = 173.0
+[node name="Letter3" type="Label" parent="Content/WordGuesses/HBoxContainer5"]
+margin_left = 152.0
+margin_right = 207.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1060,9 +1071,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter4" type="Label" parent="WordGuesses/HBoxContainer5"]
-margin_left = 177.0
-margin_right = 232.0
+[node name="Letter4" type="Label" parent="Content/WordGuesses/HBoxContainer5"]
+margin_left = 211.0
+margin_right = 266.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1074,9 +1085,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter5" type="Label" parent="WordGuesses/HBoxContainer5"]
-margin_left = 236.0
-margin_right = 291.0
+[node name="Letter5" type="Label" parent="Content/WordGuesses/HBoxContainer5"]
+margin_left = 270.0
+margin_right = 325.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1088,14 +1099,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer6" type="HBoxContainer" parent="WordGuesses"]
+[node name="HBoxContainer6" type="HBoxContainer" parent="Content/WordGuesses"]
 margin_top = 325.0
-margin_right = 291.0
+margin_right = 360.0
 margin_bottom = 380.0
 alignment = 1
 
-[node name="Letter1" type="Label" parent="WordGuesses/HBoxContainer6"]
-margin_right = 55.0
+[node name="Letter1" type="Label" parent="Content/WordGuesses/HBoxContainer6"]
+margin_left = 34.0
+margin_right = 89.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1107,9 +1119,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter2" type="Label" parent="WordGuesses/HBoxContainer6"]
-margin_left = 59.0
-margin_right = 114.0
+[node name="Letter2" type="Label" parent="Content/WordGuesses/HBoxContainer6"]
+margin_left = 93.0
+margin_right = 148.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1121,9 +1133,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter3" type="Label" parent="WordGuesses/HBoxContainer6"]
-margin_left = 118.0
-margin_right = 173.0
+[node name="Letter3" type="Label" parent="Content/WordGuesses/HBoxContainer6"]
+margin_left = 152.0
+margin_right = 207.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1135,9 +1147,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter4" type="Label" parent="WordGuesses/HBoxContainer6"]
-margin_left = 177.0
-margin_right = 232.0
+[node name="Letter4" type="Label" parent="Content/WordGuesses/HBoxContainer6"]
+margin_left = 211.0
+margin_right = 266.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1149,9 +1161,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letter5" type="Label" parent="WordGuesses/HBoxContainer6"]
-margin_left = 236.0
-margin_right = 291.0
+[node name="Letter5" type="Label" parent="Content/WordGuesses/HBoxContainer6"]
+margin_left = 270.0
+margin_right = 325.0
 margin_bottom = 55.0
 rect_min_size = Vector2( 55, 55 )
 custom_fonts/font = ExtResource( 2 )
@@ -1163,22 +1175,24 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Letters" type="VBoxContainer" parent="."]
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_top = -125.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Spacing2" type="Control" parent="Content"]
+margin_top = 488.0
+margin_right = 360.0
+margin_bottom = 488.0
+size_flags_vertical = 2
 
-[node name="HBoxContainer1" type="HBoxContainer" parent="Letters"]
+[node name="Letters" type="VBoxContainer" parent="Content"]
+margin_top = 509.0
+margin_right = 360.0
+margin_bottom = 619.0
+
+[node name="HBoxContainer1" type="HBoxContainer" parent="Content/Letters"]
 margin_right = 360.0
 margin_bottom = 34.0
 custom_constants/separation = 2
 alignment = 1
 
-[node name="LetterQ" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterQ" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 1.0
 margin_right = 35.0
 margin_bottom = 34.0
@@ -1192,7 +1206,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterW" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterW" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 37.0
 margin_right = 71.0
 margin_bottom = 34.0
@@ -1206,7 +1220,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterE" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterE" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 73.0
 margin_right = 107.0
 margin_bottom = 34.0
@@ -1220,7 +1234,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterR" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterR" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 109.0
 margin_right = 143.0
 margin_bottom = 34.0
@@ -1234,7 +1248,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterT" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterT" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 145.0
 margin_right = 179.0
 margin_bottom = 34.0
@@ -1248,7 +1262,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterZ" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterZ" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 181.0
 margin_right = 215.0
 margin_bottom = 34.0
@@ -1262,7 +1276,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterU" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterU" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 217.0
 margin_right = 251.0
 margin_bottom = 34.0
@@ -1276,7 +1290,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterI" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterI" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 253.0
 margin_right = 287.0
 margin_bottom = 34.0
@@ -1290,7 +1304,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterO" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterO" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 289.0
 margin_right = 323.0
 margin_bottom = 34.0
@@ -1304,7 +1318,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterP" type="Button" parent="Letters/HBoxContainer1"]
+[node name="LetterP" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 325.0
 margin_right = 359.0
 margin_bottom = 34.0
@@ -1318,14 +1332,14 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="Letters"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="Content/Letters"]
 margin_top = 38.0
 margin_right = 360.0
 margin_bottom = 72.0
 custom_constants/separation = 2
 alignment = 1
 
-[node name="LetterA" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterA" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 1.0
 margin_right = 35.0
 margin_bottom = 34.0
@@ -1339,7 +1353,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterS" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterS" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 37.0
 margin_right = 71.0
 margin_bottom = 34.0
@@ -1353,7 +1367,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterD" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterD" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 73.0
 margin_right = 107.0
 margin_bottom = 34.0
@@ -1367,7 +1381,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterF" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterF" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 109.0
 margin_right = 143.0
 margin_bottom = 34.0
@@ -1381,7 +1395,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterG" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterG" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 145.0
 margin_right = 179.0
 margin_bottom = 34.0
@@ -1395,7 +1409,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterH" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterH" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 181.0
 margin_right = 215.0
 margin_bottom = 34.0
@@ -1409,7 +1423,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterJ" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterJ" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 217.0
 margin_right = 251.0
 margin_bottom = 34.0
@@ -1423,7 +1437,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterK" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterK" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 253.0
 margin_right = 287.0
 margin_bottom = 34.0
@@ -1437,7 +1451,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterL" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterL" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 289.0
 margin_right = 323.0
 margin_bottom = 34.0
@@ -1451,7 +1465,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterÜ" type="Button" parent="Letters/HBoxContainer2"]
+[node name="LetterÜ" type="Button" parent="Content/Letters/HBoxContainer2"]
 margin_left = 325.0
 margin_right = 359.0
 margin_bottom = 34.0
@@ -1465,14 +1479,14 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="Letters"]
+[node name="HBoxContainer3" type="HBoxContainer" parent="Content/Letters"]
 margin_top = 76.0
 margin_right = 360.0
 margin_bottom = 110.0
 custom_constants/separation = 2
 alignment = 1
 
-[node name="LetterY" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterY" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 1.0
 margin_right = 35.0
 margin_bottom = 34.0
@@ -1486,7 +1500,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterX" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterX" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 37.0
 margin_right = 71.0
 margin_bottom = 34.0
@@ -1500,7 +1514,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterC" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterC" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 73.0
 margin_right = 107.0
 margin_bottom = 34.0
@@ -1514,7 +1528,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterV" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterV" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 109.0
 margin_right = 143.0
 margin_bottom = 34.0
@@ -1528,7 +1542,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterB" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterB" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 145.0
 margin_right = 179.0
 margin_bottom = 34.0
@@ -1542,7 +1556,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterN" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterN" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 181.0
 margin_right = 215.0
 margin_bottom = 34.0
@@ -1556,7 +1570,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterM" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterM" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 217.0
 margin_right = 251.0
 margin_bottom = 34.0
@@ -1570,7 +1584,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterÖ" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterÖ" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 253.0
 margin_right = 287.0
 margin_bottom = 34.0
@@ -1584,7 +1598,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterÄ" type="Button" parent="Letters/HBoxContainer3"]
+[node name="LetterÄ" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 289.0
 margin_right = 323.0
 margin_bottom = 34.0
@@ -1598,7 +1612,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Backspace" type="Button" parent="Letters/HBoxContainer3"]
+[node name="Backspace" type="Button" parent="Content/Letters/HBoxContainer3"]
 margin_left = 325.0
 margin_right = 359.0
 margin_bottom = 34.0
@@ -1611,6 +1625,12 @@ text = "<"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Spacing3" type="Control" parent="Content"]
+margin_top = 623.0
+margin_right = 360.0
+margin_bottom = 623.0
+size_flags_vertical = 2
 
 [node name="Menu" type="ColorRect" parent="."]
 visible = false
@@ -1757,6 +1777,6 @@ script = ExtResource( 9 )
 [node name="WordlistChoosable" type="Node" parent="."]
 script = ExtResource( 10 )
 
-[connection signal="pressed" from="Title/ButtonRules" to="." method="_on_ButtonRules_pressed"]
+[connection signal="pressed" from="Content/Title/ButtonRules" to="." method="_on_ButtonRules_pressed"]
 [connection signal="pressed" from="Menu/CenterContainer/VBoxContainer/ButtonNewGame" to="." method="_on_ButtonNewGame_pressed"]
 [connection signal="pressed" from="ScreenRules/ButtonHideScreenRules" to="." method="_on_ButtonHideScreenRules_pressed"]

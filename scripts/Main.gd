@@ -4,10 +4,13 @@ const WORD_AMOUNT_CHOOSABLE = 1034
 var solution: String = ""
 var try: int = 0
 var word: String = ""
-onready var WordGuesses = $WordGuesses
-onready var Letters = $Letters
+var score: int = 0
+var highscore: int = 0
+onready var WordGuesses = $Content/WordGuesses
+onready var Letters = $Content/Letters
 onready var Wordlist = $Wordlist
 onready var WordlistChoosable = $WordlistChoosable
+onready var LabelHighscore = $Content/Highscore
 
 func _ready():
 	randomize()
@@ -132,8 +135,14 @@ func end_game(win: bool):
 	var label = get_node("Menu/CenterContainer/VBoxContainer/Label")
 	if win:
 		label.text = "Du hast das Wort eraten!"
+		score += 1
+		if score > highscore:
+			highscore = score
+			LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
 	else:
+		score = 0
 		label.text = "Du hast das Wort nicht eraten. \nDie Lösung ist " + solution + "."
+		LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
 	
 	get_node("Menu").show()
 	get_node("Menu").mouse_filter = MOUSE_FILTER_STOP

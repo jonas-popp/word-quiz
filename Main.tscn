@@ -1,4 +1,4 @@
-[gd_scene load_steps=79 format=2]
+[gd_scene load_steps=78 format=2]
 
 [ext_resource path="res://scripts/Main.gd" type="Script" id=1]
 [ext_resource path="res://fonts/MainFont.tres" type="DynamicFont" id=2]
@@ -8,8 +8,7 @@
 [ext_resource path="res://styles/StyleButtonHover.tres" type="StyleBox" id=6]
 [ext_resource path="res://styles/StyleButtonPressed.tres" type="StyleBox" id=7]
 [ext_resource path="res://fonts/Montserrat-Bold.ttf" type="DynamicFontData" id=8]
-[ext_resource path="res://scripts/WordlistDe.gd" type="Script" id=9]
-[ext_resource path="res://scripts/WordlistDEChoosable.gd" type="Script" id=10]
+[ext_resource path="res://scripts/LanguageChoosing.gd" type="Script" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 35
@@ -1682,6 +1681,7 @@ custom_styles/normal = SubResource( 63 )
 text = "Nochmal Spielen"
 
 [node name="ScreenRules" type="ColorRect" parent="."]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 2
@@ -1772,11 +1772,57 @@ custom_styles/focus = SubResource( 68 )
 custom_styles/disabled = SubResource( 68 )
 custom_styles/normal = SubResource( 68 )
 
-[node name="Wordlist" type="Node" parent="."]
+[node name="MenuChooseLanguage" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.203922, 0.243137, 0.313726, 0.784314 )
 script = ExtResource( 9 )
 
-[node name="WordlistChoosable" type="Node" parent="."]
-script = ExtResource( 10 )
+[node name="Content" type="ColorRect" parent="MenuChooseLanguage"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = -290.0
+margin_right = 150.0
+margin_bottom = 290.0
+color = Color( 0.537255, 0.639216, 0.780392, 1 )
+
+[node name="Title" type="Label" parent="MenuChooseLanguage/Content"]
+anchor_right = 1.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 2 )
+text = "Language"
+align = 1
+valign = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuChooseLanguage/Content"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_right = -20.0
+alignment = 1
+
+[node name="ButtonDe" type="Button" parent="MenuChooseLanguage/Content/VBoxContainer"]
+margin_top = 254.0
+margin_right = 260.0
+margin_bottom = 288.0
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 4 )
+text = "Deutsch"
+
+[node name="ButtonEn" type="Button" parent="MenuChooseLanguage/Content/VBoxContainer"]
+margin_top = 292.0
+margin_right = 260.0
+margin_bottom = 326.0
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 4 )
+text = "English"
 
 [connection signal="pressed" from="Content/Title/ButtonRules" to="." method="_on_ButtonRules_pressed"]
 [connection signal="pressed" from="Menu/CenterContainer/VBoxContainer/ButtonNewGame" to="." method="_on_ButtonNewGame_pressed"]

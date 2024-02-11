@@ -1,6 +1,8 @@
 extends Control
 
-const WORD_AMOUNT_CHOOSABLE = 1034
+var word_amount_choosable: int #1034
+var wordlist: String
+var wordlist_choosable: String
 var solution: String = ""
 var try: int = 0
 var word: String = ""
@@ -8,15 +10,10 @@ var score: int = 0
 var highscore: int = 0
 onready var WordGuesses = $Content/WordGuesses
 onready var Letters = $Content/Letters
-onready var Wordlist = $Wordlist
-onready var WordlistChoosable = $WordlistChoosable
 onready var LabelHighscore = $Content/Highscore
 
 func _ready():
 	randomize()
-	var word_id = (randi() % WORD_AMOUNT_CHOOSABLE + 1) * 6 #6x, because every word has 6 letters (with space)
-	
-	solution = WordlistChoosable.words.substr(word_id, 5)
 	
 	for child in Letters.get_child_count():
 		var Child = Letters.get_child(child)
@@ -86,7 +83,7 @@ func letter_pressed(letter):
 		check_word()
 
 func check_word():
-	if word in Wordlist.words:
+	if word in wordlist:
 		color_letters()
 		if word == solution:
 			end_game(true)
@@ -159,8 +156,8 @@ func end_game(win: bool):
 func _on_ButtonNewGame_pressed():
 	try = 0
 	word = ""
-	var word_id = (randi() % WORD_AMOUNT_CHOOSABLE + 1) * 6
-	solution = WordlistChoosable.words.substr(word_id, 5)
+	var word_id = (randi() % word_amount_choosable + 1) * 6 #6x, because every word has 6 letters (with space)
+	solution = wordlist_choosable.substr(word_id, 5)
 	
 	#reset WordGuessing Letters
 	for row in 6:

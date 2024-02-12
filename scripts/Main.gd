@@ -96,7 +96,7 @@ func check_word():
 		WordGuesses.get_child(try).get_child(len(word) - 1).text = ""
 		
 		#show error
-		LabelHighscore.text = word + " ist kein Wort!"
+		LabelHighscore.text = tr("not_a_word") % word
 		LabelHighscore.set("custom_colors/font_color", Color(0.75, 0.1, 0.1))
 		TimerShowScores.start()
 

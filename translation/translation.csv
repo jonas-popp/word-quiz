@@ -22,3 +22,4 @@ After each word entered, the letters change color:
 [color=#e6b345]Yellow[/color] letters appear in the word
 [color=#4a4a4a]Grey[/color] letters do not appear in the word"
 reopen_rules;Auf Titel klicken, um Regeln zu öffnen;Click on title to reopen rules
+not_a_word;%s ist kein Wort!;%s is not a word!

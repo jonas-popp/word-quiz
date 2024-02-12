@@ -1,6 +1,6 @@
 extends Control
 
-var word_amount_choosable: int #1034
+var word_amount_choosable: int
 var wordlist: String
 var wordlist_choosable: String
 var solution: String = ""
@@ -26,40 +26,20 @@ func _unhandled_key_input(event):
 	if len(word) == 5 or try > 5: return
 	
 	#is_pressed does only count pressed letter, not released ones
-	if !(event is InputEventKey and event.is_pressed()): return
+	if !(event is InputEventKey and event.is_pressed()):
+		return
 	
-	var valid := false
-	var sc = event.get_scancode()
-	if sc >= 65 and sc <= 90: #Letters A-Z
-		valid = true
-	if sc == 196 or sc == 214 or sc == 220: #äöü with German Keyboard Layout
-		valid = true
-	if sc == 39 or sc == 96 or sc == 59: #äöü with English Keyboard Layout
-		valid = true
-	if sc == 16777220: #BackSpace-Key
-		valid = true
+	var letter = OS.get_scancode_string(event.get_scancode()).to_lower()
 	
-	if !valid: return
-	
-	var letter = OS.get_scancode_string(event.get_scancode())
-	
-	match event.get_scancode():
-		196: letter = "ä"
-		214: letter = "ö"
-		220: letter = "ü"
-	
-	match event.get_scancode(): #äöü detection on English Keyboard Layout
-		39: letter = "ä"
-		96: letter = "ö"
-		59: letter = "ü"
-	
-	if letter == "BackSpace":
+	if letter == "backspace":
 		if len(word) != 0:
 			word.erase(len(word)-1, 1)
 			WordGuesses.get_child(try).get_child(len(word)).text = ""
 		return
 	
-	letter = letter.to_lower()
+	if !(letter in "abcdefghijklmnopqrstuvwxyzäöü"):
+		return
+
 	word += letter
 	
 	WordGuesses.get_child(try).get_child(len(word)-1).text = letter

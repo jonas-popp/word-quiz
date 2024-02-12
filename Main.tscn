@@ -668,9 +668,6 @@ script = ExtResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color( 0.419608, 0.537255, 0.705882, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Content" type="VBoxContainer" parent="."]
 anchor_right = 1.0
@@ -680,7 +677,7 @@ anchor_bottom = 1.0
 margin_right = 360.0
 margin_bottom = 43.0
 custom_fonts/font = SubResource( 1 )
-text = "Wort Quiz"
+text = "title"
 align = 1
 valign = 1
 uppercase = true
@@ -1262,7 +1259,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterZ" type="Button" parent="Content/Letters/HBoxContainer1"]
+[node name="LetterY" type="Button" parent="Content/Letters/HBoxContainer1"]
 margin_left = 181.0
 margin_right = 215.0
 margin_bottom = 34.0
@@ -1271,7 +1268,7 @@ custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
 custom_styles/pressed = ExtResource( 7 )
 custom_styles/normal = SubResource( 37 )
-text = "Z"
+text = "Y"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -1340,8 +1337,8 @@ custom_constants/separation = 2
 alignment = 1
 
 [node name="LetterA" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 1.0
-margin_right = 35.0
+margin_left = 19.0
+margin_right = 53.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1354,8 +1351,8 @@ __meta__ = {
 }
 
 [node name="LetterS" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 37.0
-margin_right = 71.0
+margin_left = 55.0
+margin_right = 89.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1368,8 +1365,8 @@ __meta__ = {
 }
 
 [node name="LetterD" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 73.0
-margin_right = 107.0
+margin_left = 91.0
+margin_right = 125.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1382,8 +1379,8 @@ __meta__ = {
 }
 
 [node name="LetterF" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 109.0
-margin_right = 143.0
+margin_left = 127.0
+margin_right = 161.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1396,8 +1393,8 @@ __meta__ = {
 }
 
 [node name="LetterG" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 145.0
-margin_right = 179.0
+margin_left = 163.0
+margin_right = 197.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1410,8 +1407,8 @@ __meta__ = {
 }
 
 [node name="LetterH" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 181.0
-margin_right = 215.0
+margin_left = 199.0
+margin_right = 233.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1424,8 +1421,8 @@ __meta__ = {
 }
 
 [node name="LetterJ" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 217.0
-margin_right = 251.0
+margin_left = 235.0
+margin_right = 269.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1438,8 +1435,8 @@ __meta__ = {
 }
 
 [node name="LetterK" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 253.0
-margin_right = 287.0
+margin_left = 271.0
+margin_right = 305.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1452,8 +1449,8 @@ __meta__ = {
 }
 
 [node name="LetterL" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 289.0
-margin_right = 323.0
+margin_left = 307.0
+margin_right = 341.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1466,6 +1463,7 @@ __meta__ = {
 }
 
 [node name="LetterÜ" type="Button" parent="Content/Letters/HBoxContainer2"]
+visible = false
 margin_left = 325.0
 margin_right = 359.0
 margin_bottom = 34.0
@@ -1486,23 +1484,23 @@ margin_bottom = 110.0
 custom_constants/separation = 2
 alignment = 1
 
-[node name="LetterY" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 1.0
-margin_right = 35.0
+[node name="LetterZ" type="Button" parent="Content/Letters/HBoxContainer3"]
+margin_left = 37.0
+margin_right = 71.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
 custom_styles/pressed = ExtResource( 7 )
 custom_styles/normal = SubResource( 52 )
-text = "Y"
+text = "Z"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LetterX" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 37.0
-margin_right = 71.0
+margin_left = 73.0
+margin_right = 107.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1515,8 +1513,8 @@ __meta__ = {
 }
 
 [node name="LetterC" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 73.0
-margin_right = 107.0
+margin_left = 109.0
+margin_right = 143.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1529,8 +1527,8 @@ __meta__ = {
 }
 
 [node name="LetterV" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 109.0
-margin_right = 143.0
+margin_left = 145.0
+margin_right = 179.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1543,8 +1541,8 @@ __meta__ = {
 }
 
 [node name="LetterB" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 145.0
-margin_right = 179.0
+margin_left = 181.0
+margin_right = 215.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1557,8 +1555,8 @@ __meta__ = {
 }
 
 [node name="LetterN" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 181.0
-margin_right = 215.0
+margin_left = 217.0
+margin_right = 251.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1571,8 +1569,8 @@ __meta__ = {
 }
 
 [node name="LetterM" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 217.0
-margin_right = 251.0
+margin_left = 253.0
+margin_right = 287.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1585,6 +1583,7 @@ __meta__ = {
 }
 
 [node name="LetterÖ" type="Button" parent="Content/Letters/HBoxContainer3"]
+visible = false
 margin_left = 253.0
 margin_right = 287.0
 margin_bottom = 34.0
@@ -1599,8 +1598,9 @@ __meta__ = {
 }
 
 [node name="LetterÄ" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 289.0
-margin_right = 323.0
+visible = false
+margin_left = 271.0
+margin_right = 305.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1613,8 +1613,8 @@ __meta__ = {
 }
 
 [node name="Backspace" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 325.0
-margin_right = 359.0
+margin_left = 289.0
+margin_right = 323.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1656,15 +1656,15 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Menu/CenterContainer"]
-margin_left = 144.0
+margin_left = 214.0
 margin_top = 250.0
-margin_right = 368.0
+margin_right = 298.0
 margin_bottom = 390.0
 custom_constants/separation = 80
 alignment = 1
 
 [node name="Label" type="Label" parent="Menu/CenterContainer/VBoxContainer"]
-margin_right = 224.0
+margin_right = 84.0
 margin_bottom = 26.0
 custom_fonts/font = SubResource( 64 )
 align = 1
@@ -1672,13 +1672,13 @@ valign = 1
 
 [node name="ButtonNewGame" type="Button" parent="Menu/CenterContainer/VBoxContainer"]
 margin_top = 106.0
-margin_right = 224.0
+margin_right = 84.0
 margin_bottom = 140.0
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = SubResource( 61 )
 custom_styles/pressed = SubResource( 62 )
 custom_styles/normal = SubResource( 63 )
-text = "Nochmal Spielen"
+text = "replay"
 
 [node name="ScreenRules" type="ColorRect" parent="."]
 visible = false
@@ -1686,9 +1686,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 2
 color = Color( 0.203922, 0.243137, 0.313726, 0.784314 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="ColorRect" type="ColorRect" parent="ScreenRules"]
 anchor_left = 0.5
@@ -1708,12 +1705,9 @@ __meta__ = {
 anchor_right = 1.0
 margin_top = 10.0
 custom_fonts/font = ExtResource( 2 )
-text = "Regeln"
+text = "title_rules"
 align = 1
 valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Rules" type="RichTextLabel" parent="ScreenRules/ColorRect"]
 anchor_left = 0.5
@@ -1726,29 +1720,26 @@ margin_right = 135.0
 margin_bottom = 198.0
 custom_fonts/normal_font = SubResource( 66 )
 bbcode_enabled = true
-bbcode_text = "Das Ziel des Spiels ist es, ein Wort mit 5 Buchstaben innerhalb von 6 Versuchen zu erraten.
-Dabei muss jeder Versuch ein existierendes Wort sein.
+bbcode_text = "The aim of the game is to guess a 5-letter word within 6 attempts.
+Each attempt must be an existing word.
 
 
-Nach jedem eingegebenen Wort färben sich die Buchstaben:
+After each word entered, the letters change color:
 
-[color=#1aa60f]Grüne[/color] Buchstaben sind an der richtigen Stelle
-[color=#e6b345]Gelbe[/color] Buchstaben kommen im Wort vor
-[color=#4a4a4a]Graue[/color] Buchstaben kommen nicht im Wort vor"
-text = "Das Ziel des Spiels ist es, ein Wort mit 5 Buchstaben innerhalb von 6 Versuchen zu erraten.
-Dabei muss jeder Versuch ein existierendes Wort sein.
+[color=#1aa60f]Green[/color] letters are in the correct place
+[color=#e6b345]Yellow[/color] letters appear in the word
+[color=#4a4a4a]Grey[/color] letters do not appear in the word"
+text = "The aim of the game is to guess a 5-letter word within 6 attempts.
+Each attempt must be an existing word.
 
 
-Nach jedem eingegebenen Wort färben sich die Buchstaben:
+After each word entered, the letters change color:
 
-Grüne Buchstaben sind an der richtigen Stelle
-Gelbe Buchstaben kommen im Wort vor
-Graue Buchstaben kommen nicht im Wort vor"
+Green letters are in the correct place
+Yellow letters appear in the word
+Grey letters do not appear in the word"
 fit_content_height = true
 scroll_active = false
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Reopen" type="Label" parent="ScreenRules/ColorRect"]
 anchor_top = 1.0
@@ -1756,7 +1747,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = -18.0
 custom_fonts/font = SubResource( 65 )
-text = "Auf Titel klicken, um Regeln zu öffnen"
+text = "reopen_rules"
 align = 1
 valign = 1
 __meta__ = {

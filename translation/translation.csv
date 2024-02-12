@@ -1,0 +1,24 @@
+keys;de;en
+title;Wort Quiz;Word Quiz
+replay;Nochmal Spielen;Play Again
+word_guessed;Du hast das Wort erraten!;You guessed the word!
+word_not_guessed;Du hast das Wort nicht erraten. \nDie Lösung ist %s.;You didn’t guess the word. \nThe solution is %s.
+title_rules;Regeln;Rules
+rules;"Das Ziel des Spiels ist es, ein Wort mit 5 Buchstaben innerhalb von 6 Versuchen zu erraten.
+Dabei muss jeder Versuch ein existierendes Wort sein.
+
+
+Nach jedem eingegebenen Wort färben sich die Buchstaben:
+
+[color=#1aa60f]Grüne[/color] Buchstaben sind an der richtigen Stelle
+[color=#e6b345]Gelbe[/color] Buchstaben kommen im Wort vor
+[color=#4a4a4a]Graue[/color] Buchstaben kommen nicht im Wort vor";"The aim of the game is to guess a 5-letter word within 6 attempts.
+Each attempt must be an existing word.
+
+
+After each word entered, the letters change color:
+
+[color=#1aa60f]Green[/color] letters are in the correct place
+[color=#e6b345]Yellow[/color] letters appear in the word
+[color=#4a4a4a]Grey[/color] letters do not appear in the word"
+reopen_rules;Auf Titel klicken, um Regeln zu öffnen;Click on title to reopen rules

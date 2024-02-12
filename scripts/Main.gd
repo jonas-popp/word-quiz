@@ -140,14 +140,14 @@ func color_letter_keyboard(letter: String, color: Color):
 func end_game(win: bool):
 	var label = get_node("Menu/CenterContainer/VBoxContainer/Label")
 	if win:
-		label.text = "Du hast das Wort eraten!"
+		label.text = tr("word_guessed")
 		score += 1
 		if score > highscore:
 			highscore = score
 			LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
 	else:
 		score = 0
-		label.text = "Du hast das Wort nicht eraten. \nDie Lösung ist " + solution + "."
+		label.text = tr("word_not_guessed") % solution
 		LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
 	
 	get_node("Menu").show()

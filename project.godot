@@ -76,6 +76,10 @@ ui_end={
 "events": [  ]
 }
 
+[locale]
+
+translations=PoolStringArray( "res://translation/translation.de.translation", "res://translation/translation.en.translation" )
+
 [physics]
 
 common/enable_pause_aware_picking=true

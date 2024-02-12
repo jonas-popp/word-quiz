@@ -1815,6 +1815,11 @@ custom_styles/pressed = ExtResource( 7 )
 custom_styles/normal = ExtResource( 4 )
 text = "English"
 
+[node name="TimerShowScores" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
 [connection signal="pressed" from="Content/Title/ButtonRules" to="." method="_on_ButtonRules_pressed"]
 [connection signal="pressed" from="Menu/CenterContainer/VBoxContainer/ButtonNewGame" to="." method="_on_ButtonNewGame_pressed"]
 [connection signal="pressed" from="ScreenRules/ButtonHideScreenRules" to="." method="_on_ButtonHideScreenRules_pressed"]
+[connection signal="timeout" from="TimerShowScores" to="." method="show_scores"]

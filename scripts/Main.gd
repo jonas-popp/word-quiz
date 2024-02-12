@@ -11,6 +11,7 @@ var highscore: int = 0
 onready var WordGuesses = $Content/WordGuesses
 onready var Letters = $Content/Letters
 onready var LabelHighscore = $Content/Highscore
+onready var TimerShowScores = $TimerShowScores
 
 func _ready():
 	randomize()
@@ -95,12 +96,9 @@ func check_word():
 		WordGuesses.get_child(try).get_child(len(word) - 1).text = ""
 		
 		#show error
-		var highscore_text = LabelHighscore.text
 		LabelHighscore.text = word + " ist kein Wort!"
 		LabelHighscore.set("custom_colors/font_color", Color(0.75, 0.1, 0.1))
-		yield(get_tree().create_timer(2.0), "timeout")
-		LabelHighscore.text = highscore_text
-		LabelHighscore.set("custom_colors/font_color", Color(1.0, 1.0, 1.0))
+		TimerShowScores.start()
 
 		word.erase(len(word)-1, 1)
 
@@ -137,6 +135,10 @@ func color_letter_keyboard(letter: String, color: Color):
 		else:
 			row += 1
 
+func show_scores():
+	LabelHighscore.set("custom_colors/font_color", Color(1.0, 1.0, 1.0))
+	LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
+
 func end_game(win: bool):
 	var label = get_node("Menu/CenterContainer/VBoxContainer/Label")
 	if win:
@@ -144,11 +146,11 @@ func end_game(win: bool):
 		score += 1
 		if score > highscore:
 			highscore = score
-			LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
+			show_scores()
 	else:
 		score = 0
 		label.text = tr("word_not_guessed") % solution
-		LabelHighscore.text = "Score: " + String(score) + "    Highscore: " + String(highscore)
+		show_scores()
 	
 	get_node("Menu").show()
 	get_node("Menu").mouse_filter = MOUSE_FILTER_STOP

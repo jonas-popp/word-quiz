@@ -1796,9 +1796,9 @@ margin_right = -20.0
 alignment = 1
 
 [node name="ButtonDe" type="Button" parent="MenuChooseLanguage/Content/VBoxContainer"]
-margin_top = 254.0
+margin_top = 216.0
 margin_right = 260.0
-margin_bottom = 288.0
+margin_bottom = 250.0
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
 custom_styles/pressed = ExtResource( 7 )
@@ -1806,6 +1806,16 @@ custom_styles/normal = ExtResource( 4 )
 text = "Deutsch"
 
 [node name="ButtonEn" type="Button" parent="MenuChooseLanguage/Content/VBoxContainer"]
+margin_top = 254.0
+margin_right = 260.0
+margin_bottom = 288.0
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 4 )
+text = "English"
+
+[node name="ButtonFr" type="Button" parent="MenuChooseLanguage/Content/VBoxContainer"]
 margin_top = 292.0
 margin_right = 260.0
 margin_bottom = 326.0
@@ -1813,7 +1823,17 @@ custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
 custom_styles/pressed = ExtResource( 7 )
 custom_styles/normal = ExtResource( 4 )
-text = "English"
+text = "Français"
+
+[node name="ButtonIt" type="Button" parent="MenuChooseLanguage/Content/VBoxContainer"]
+margin_top = 330.0
+margin_right = 260.0
+margin_bottom = 364.0
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 4 )
+text = "Italiano"
 
 [node name="TimerShowScores" type="Timer" parent="."]
 wait_time = 2.0

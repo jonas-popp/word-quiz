@@ -20,6 +20,8 @@ func load_language(pressed_button: String):
 	if language == "De":
 		show_mutated_vowels()
 		exchange_yz()
+	if language == "Fr":
+		keyboard_layout_azerty()
 
 	get_node("../ScreenRules/ColorRect/Rules").bbcode_text = tr("rules")
 	Main.word_amount_choosable = (Main.wordlist_choosable.length() + 1) / 6
@@ -44,3 +46,28 @@ func show_mutated_vowels():
 	get_node("../Content/Letters/HBoxContainer2/LetterÜ").show()
 	get_node("../Content/Letters/HBoxContainer3/LetterÖ").show()
 	get_node("../Content/Letters/HBoxContainer3/LetterÄ").show()
+
+func keyboard_layout_azerty(): # move_child add_child_below_node replace_by
+	var row1 = get_node("../Content/Letters/HBoxContainer1")
+	var row2 = get_node("../Content/Letters/HBoxContainer2")
+	var row3 = get_node("../Content/Letters/HBoxContainer3")
+
+	var letter_q = row1.get_node("LetterQ")
+	var letter_w = row1.get_node("LetterW")
+	row1.remove_child(letter_q)
+	row1.remove_child(letter_w)
+
+	var letter_a = row2.get_node("LetterA")
+	letter_a.replace_by(letter_q)
+
+	var letter_z = row3.get_node("LetterZ")
+	var letter_m = row3.get_node("LetterM")
+	letter_z.replace_by(letter_w)
+	row3.remove_child(letter_m)
+
+	# azm
+	row1.add_child(letter_a)
+	row1.move_child(letter_a, 0)
+	row1.add_child(letter_z)
+	row1.move_child(letter_z, 1)
+	row2.add_child(letter_m)

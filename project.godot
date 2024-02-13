@@ -78,7 +78,7 @@ ui_end={
 
 [locale]
 
-translations=PoolStringArray( "res://translation/translation.de.translation", "res://translation/translation.en.translation" )
+translations=PoolStringArray( "res://translation/translation.de.translation", "res://translation/translation.en.translation", "res://translation/translation.fr.translation", "res://translation/translation.it.translation" )
 
 [physics]
 

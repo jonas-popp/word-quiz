@@ -1,9 +1,9 @@
-keys;de;en
-title;Wort Quiz;Word Quiz
-replay;Nochmal Spielen;Play Again
-word_guessed;Du hast das Wort erraten!;You guessed the word!
-word_not_guessed;Du hast das Wort nicht erraten. \nDie Lösung ist %s.;You didn’t guess the word. \nThe solution is %s.
-title_rules;Regeln;Rules
+keys;de;en;fr;it
+title;Wort Quiz;Word Quiz;Jeu de Mots;Quiz di Parole
+replay;Nochmal Spielen;Play Again;Rejouer;Riproduzione
+word_guessed;Du hast das Wort erraten!;You guessed the word!;Vous avez deviné le mot!;Avete indovinato la parola!
+word_not_guessed;Du hast das Wort nicht erraten. \nDie Lösung ist %s.;You didn’t guess the word. \nThe solution is %s.;Vous n'avez pas deviné le mot. \nLa solution est %s.;Non hai indovinato la parola. \nLa soluzione è %s.
+title_rules;Regeln;Rules;Règles;Regole
 rules;"Das Ziel des Spiels ist es, ein Wort mit 5 Buchstaben innerhalb von 6 Versuchen zu erraten.
 Dabei muss jeder Versuch ein existierendes Wort sein.
 
@@ -20,6 +20,22 @@ After each word entered, the letters change color:
 
 [color=#1aa60f]Green[/color] letters are in the correct place
 [color=#e6b345]Yellow[/color] letters appear in the word
-[color=#4a4a4a]Grey[/color] letters do not appear in the word"
-reopen_rules;Auf Titel klicken, um Regeln zu öffnen;Click on title to reopen rules
-not_a_word;%s ist kein Wort!;%s is not a word!
+[color=#4a4a4a]Grey[/color] letters do not appear in the word";"Le but du jeu est de deviner un mot de 5 lettres en 6 tentatives.
+Chaque tentative doit être un mot existant.
+
+
+Après chaque mot saisi, les lettres changent de couleur :
+
+Les lettres [color=#1aa60f]vertes[/color] sont à la bonne place.
+Les lettres [color=#e6b345]jaunes[/color] apparaissent dans le mot.
+Les lettres [color=#4a4a4a]grises[/color] n'apparaissent pas dans le mot.";"Lo scopo del gioco è indovinare una parola di 5 lettere entro 6 tentativi.
+Ogni tentativo deve essere una parola esistente.
+
+
+Dopo ogni parola inserita, le lettere cambiano colore:
+
+Le lettere [color=#1aa60f]verdi[/color] sono al posto giusto.
+Le lettere [color=#e6b345]gialle[/color] appaiono nella parola
+Le lettere [color=#4a4a4a]grigie[/color] non compaiono nella parola"
+reopen_rules;Auf Titel klicken, um Regeln zu öffnen;Click on title to reopen rules;Cliquez sur le titre pour rouvrir les règles;Fare clic sul titolo per riaprire le regole
+not_a_word;%s ist kein Wort!;%s is not a word!;%s n'est pas un mot!;%s non è una parola!

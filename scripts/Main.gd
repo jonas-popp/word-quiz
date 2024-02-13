@@ -151,7 +151,7 @@ func _on_ButtonNewGame_pressed():
 	
 	#reset Keyboard Letters
 	for row in 3:
-		for letter in 10:
+		for letter in get_node("Content/Letters").get_child(row).get_child_count():
 			var Letter = Letters.get_child(row).get_child(letter)
 			Letter.get_stylebox("normal").bg_color = Color(0, 0, 0, 0)
 	

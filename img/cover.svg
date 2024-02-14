@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="630"
+   height="500"
+   viewBox="0 0 166.6875 132.29167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="cover.svg"
+   inkscape:export-filename="/home/jonas/Dokumente/Code/Spiele Godot/WordQuiz/img/cover.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="630px"
+     inkscape:zoom="1.4235831"
+     inkscape:cx="322.07463"
+     inkscape:cy="242.34623"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#6b89b4;fill-opacity:1;stroke:none;stroke-width:2.40161"
+       id="rect846"
+       width="166.6875"
+       height="132.29167"
+       x="1.3877788e-17"
+       y="4.4408921e-16" />
+    <rect
+       style="fill:#1aa60f;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1206"
+       width="27.731583"
+       height="26.920692"
+       x="12.176954"
+       y="30.577421" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="13.718418"
+       y="52.592976"
+       id="text3125"><tspan
+         sodipodi:role="line"
+         id="tspan3123"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="13.718418"
+         y="52.592976">W</tspan></text>
+    <rect
+       style="fill:#4a4a4a;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect13121"
+       width="27.731583"
+       height="26.920692"
+       x="50.366043"
+       y="30.622246" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="54.675339"
+       y="51.567719"
+       id="text14407"><tspan
+         sodipodi:role="line"
+         id="tspan14405"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="54.675339"
+         y="51.567719">O</tspan></text>
+    <rect
+       style="fill:#e6b346;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19857"
+       width="27.731583"
+       height="26.920692"
+       x="90.301987"
+       y="30.622246" />
+    <rect
+       style="fill:#4a4a4a;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19859"
+       width="27.731583"
+       height="26.920692"
+       x="129.77623"
+       y="30.622246" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="95.196739"
+       y="51.925236"
+       id="text21153"><tspan
+         sodipodi:role="line"
+         id="tspan21151"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="95.196739"
+         y="51.925236">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="134.09062"
+       y="51.909496"
+       id="text25225"><tspan
+         sodipodi:role="line"
+         id="tspan25223"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="134.09062"
+         y="51.909496">D</tspan></text>
+    <rect
+       style="fill:#e6b346;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect29841"
+       width="27.731583"
+       height="26.920692"
+       x="12.176954"
+       y="73.083664"
+       inkscape:export-filename="/home/jonas/Downloads/word-quiz-cover.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#1aa60f;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect29843"
+       width="27.731583"
+       height="26.920692"
+       x="50.366043"
+       y="73.128487" />
+    <rect
+       style="fill:#1aa60f;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect29845"
+       width="27.731583"
+       height="26.920692"
+       x="90.301987"
+       y="73.128487" />
+    <rect
+       style="fill:#e6b346;fill-opacity:1;stroke:#232323;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect29847"
+       width="27.731583"
+       height="26.920692"
+       x="129.77623"
+       y="73.128487" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.916467"
+       y="93.948784"
+       id="text30973"><tspan
+         sodipodi:role="line"
+         id="tspan30971"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="15.916467"
+         y="93.948784">Q</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.134964"
+       y="94.598175"
+       id="text33639"><tspan
+         sodipodi:role="line"
+         id="tspan33637"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="55.134964"
+         y="94.598175">U</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100.23434"
+       y="94.585526"
+       id="text36999"><tspan
+         sodipodi:role="line"
+         id="tspan36997"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="100.23434"
+         y="94.585526">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="136.14439"
+       y="94.539345"
+       id="text40123"><tspan
+         sodipodi:role="line"
+         id="tspan40121"
+         style="font-weight:bold;font-size:22.5778px;stroke-width:0.264583"
+         x="136.14439"
+         y="94.539345">Z</tspan></text>
+  </g>
+</svg>

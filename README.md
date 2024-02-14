@@ -3,7 +3,7 @@
 Word Quiz is a game inspired by [Wordle](https://www.nytimes.com/games/wordle/index.html) and is built using the [Godot Engine](https://www.godotengine.org) (Version 3.5). It was created to let people play this type of game in other languages than English. The game has no limit in plays, so you can guess words as long as you like. There are also binaries, so it can be played offline and outside the browser.
 Exported binaries and online play can be found [here](https://levelbreaker.itch.io/word-quiz).
 
-![A Screenshot of a game of Word Quiz](./wordquiz_screenshot.png)
+![A Screenshot of a game of Word Quiz](./img/wordquiz_screenshot.png)
 
 ## Languages
 Currently, supported languages are: German, English, French, Italian. But I plan to add more from time to time.

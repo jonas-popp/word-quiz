@@ -52,6 +52,22 @@ func _unhandled_key_input(event):
 			WordGuesses.get_child(try).get_child(len(word)).text = ""
 		return
 	
+	# windows
+	if letter == "apostrophe":
+		letter = "ä"
+	elif letter == "quoteleft":
+		letter = "ö"
+	elif letter == "semicolon":
+		letter = "ü"
+
+	# browser
+	elif letter == "adiaeresis":
+		letter = "ä"
+	elif letter == "odiaeresis":
+		letter = "ö"
+	elif letter == "udiaeresis":
+		letter = "ü"
+
 	if !(letter in "abcdefghijklmnopqrstuvwxyzäöü"):
 		return
 

@@ -62,7 +62,7 @@ func show_mutated_vowels():
 	get_node("../Content/Letters/HBoxContainer3/LetterÖ").show()
 	get_node("../Content/Letters/HBoxContainer3/LetterÄ").show()
 
-func keyboard_layout_azerty(): # move_child add_child_below_node replace_by
+func keyboard_layout_azerty():
 	var row1 = get_node("../Content/Letters/HBoxContainer1")
 	var row2 = get_node("../Content/Letters/HBoxContainer2")
 	var row3 = get_node("../Content/Letters/HBoxContainer3")
@@ -80,7 +80,6 @@ func keyboard_layout_azerty(): # move_child add_child_below_node replace_by
 	letter_z.replace_by(letter_w)
 	row3.remove_child(letter_m)
 
-	# azm
 	row1.add_child(letter_a)
 	row1.move_child(letter_a, 0)
 	row1.add_child(letter_z)

@@ -157,11 +157,10 @@ func end_game(win: bool):
 		score += 1
 		if score > highscore:
 			highscore = score
-			show_scores()
 	else:
 		score = 0
 		label.text = tr("word_not_guessed") % solution
-		show_scores()
+	show_scores()
 	
 	get_node("Menu").show()
 	get_node("Menu").mouse_filter = MOUSE_FILTER_STOP

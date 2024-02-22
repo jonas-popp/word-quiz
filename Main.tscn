@@ -1,4 +1,4 @@
-[gd_scene load_steps=78 format=2]
+[gd_scene load_steps=80 format=2]
 
 [ext_resource path="res://scripts/Main.gd" type="Script" id=1]
 [ext_resource path="res://fonts/MainFont.tres" type="DynamicFont" id=2]
@@ -647,6 +647,12 @@ corner_radius_top_left = 2
 corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
+
+[sub_resource type="InputEventKey" id=69]
+scancode = 16777221
+
+[sub_resource type="ShortCut" id=70]
+shortcut = SubResource( 69 )
 
 [sub_resource type="DynamicFont" id=66]
 font_data = ExtResource( 3 )
@@ -1678,6 +1684,7 @@ custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = SubResource( 61 )
 custom_styles/pressed = SubResource( 62 )
 custom_styles/normal = SubResource( 63 )
+shortcut = SubResource( 70 )
 text = "replay"
 
 [node name="ScreenRules" type="ColorRect" parent="."]

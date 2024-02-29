@@ -14,7 +14,8 @@ config/name="WordQuiz"
 run/main_scene="res://Main.tscn"
 boot_splash/image="res://boot_screen.png"
 boot_splash/bg_color=Color( 0.419608, 0.537255, 0.705882, 1 )
-config/icon="res://icon.png"
+config/icon="res://icons/icon.png"
+config/windows_native_icon="res://icons/icon.ico"
 
 [display]
 

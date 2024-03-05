@@ -31,10 +31,8 @@ onready var TimerShowScores = $TimerShowScores
 func _ready():
 	randomize()
 	
-	for child in Letters.get_child_count():
-		var Child = Letters.get_child(child)
-		for letter in Child.get_child_count():
-			var Letter = Child.get_child(letter)
+	for Letter in Letters.get_children():
+		if !Letter.get_name().begins_with("HBox"):
 			Letter.connect("pressed", self, "letter_pressed", [Letter])
 
 	if Scores.language != "":

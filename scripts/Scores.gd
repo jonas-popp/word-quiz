@@ -28,8 +28,9 @@ func _ready():
 	if file.open("user://scores", File.READ) == OK:
 		var file_data = file.get_var()
 		file.close()
-		language = file_data.language
-		scores = file_data.scores
+		if typeof(file_data) == TYPE_DICTIONARY:
+			language = file_data.language
+			scores = file_data.scores
 
 func save_scores(score: int, highscore: int):
 	var file = File.new()

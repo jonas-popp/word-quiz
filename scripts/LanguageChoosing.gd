@@ -30,6 +30,7 @@ func load_language(pressed_button: String):
 		Main.wordlist_choosable = file_wordlist.get_as_text()
 	else:
 		Main.wordlist_choosable = Main.wordlist
+	Scores.language = language.to_lower()
 	
 	TranslationServer.set_locale(language.to_lower())
 	if language == "De":

@@ -37,6 +37,14 @@ func _ready():
 			var Letter = Child.get_child(letter)
 			Letter.connect("pressed", self, "letter_pressed", [Letter])
 
+	if Scores.language != "":
+		var scores = Scores.get_scores()
+		score = scores[0]
+		highscore = scores[1]
+		show_scores()
+		get_node("MenuChooseLanguage").load_language(Scores.language.capitalize())
+		get_node("ScreenRules").hide()
+
 func _unhandled_key_input(event):
 	if len(word) == 5 or try > 5: return
 	
@@ -161,6 +169,7 @@ func end_game(win: bool):
 		score = 0
 		label.text = tr("word_not_guessed") % solution
 	show_scores()
+	Scores.save_scores(score, highscore)
 	
 	get_node("Menu").show()
 	get_node("Menu").mouse_filter = MOUSE_FILTER_STOP

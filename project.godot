@@ -17,6 +17,10 @@ boot_splash/bg_color=Color( 0.419608, 0.537255, 0.705882, 1 )
 config/icon="res://icons/icon.png"
 config/windows_native_icon="res://icons/icon.ico"
 
+[autoload]
+
+Scores="*res://scripts/Scores.gd"
+
 [display]
 
 window/size/width=360

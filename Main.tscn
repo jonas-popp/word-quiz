@@ -259,126 +259,6 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color( 0, 0, 0, 1 )
 
-[sub_resource type="StyleBoxFlat" id=32]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=33]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=34]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=35]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=36]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=37]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=38]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=39]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=40]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=41]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
 [sub_resource type="StyleBoxFlat" id=42]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
@@ -391,7 +271,19 @@ corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
-[sub_resource type="StyleBoxFlat" id=43]
+[sub_resource type="StyleBoxFlat" id=56]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=54]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -404,6 +296,18 @@ corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
 [sub_resource type="StyleBoxFlat" id=44]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=34]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -451,6 +355,18 @@ corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
+[sub_resource type="StyleBoxFlat" id=39]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
 [sub_resource type="StyleBoxFlat" id=48]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
@@ -487,67 +403,7 @@ corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
-[sub_resource type="StyleBoxFlat" id=51]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=52]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=53]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=54]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=55]
-bg_color = Color( 0.6, 0.6, 0.6, 0 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color( 0, 0, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
-
-[sub_resource type="StyleBoxFlat" id=56]
+[sub_resource type="StyleBoxFlat" id=58]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -571,7 +427,151 @@ corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
-[sub_resource type="StyleBoxFlat" id=58]
+[sub_resource type="StyleBoxFlat" id=40]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=41]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=32]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=35]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=43]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=36]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=38]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=55]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=33]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=53]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=37]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=52]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=60]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -595,7 +595,7 @@ corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
-[sub_resource type="StyleBoxFlat" id=60]
+[sub_resource type="StyleBoxFlat" id=51]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -654,16 +654,16 @@ scancode = 16777221
 [sub_resource type="ShortCut" id=70]
 shortcut = SubResource( 69 )
 
+[sub_resource type="StyleBoxFlat" id=68]
+bg_color = Color( 0, 0, 0, 0 )
+corner_detail = 1
+
 [sub_resource type="DynamicFont" id=66]
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=65]
 size = 14
 font_data = ExtResource( 3 )
-
-[sub_resource type="StyleBoxFlat" id=68]
-bg_color = Color( 0, 0, 0, 0 )
-corner_detail = 1
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -715,9 +715,9 @@ margin_bottom = 83.0
 size_flags_vertical = 2
 
 [node name="WordGuesses" type="VBoxContainer" parent="Content"]
-margin_top = 104.0
+margin_top = 138.0
 margin_right = 360.0
-margin_bottom = 484.0
+margin_bottom = 518.0
 custom_constants/separation = 10
 __meta__ = {
 "_edit_use_anchors_": false
@@ -1179,23 +1179,289 @@ __meta__ = {
 }
 
 [node name="Spacing2" type="Control" parent="Content"]
-margin_top = 488.0
+margin_top = 522.0
 margin_right = 360.0
-margin_bottom = 488.0
+margin_bottom = 522.0
 size_flags_vertical = 2
 
 [node name="Letters" type="VBoxContainer" parent="Content"]
-margin_top = 509.0
+margin_top = 577.0
 margin_right = 360.0
-margin_bottom = 619.0
+margin_bottom = 585.0
 
 [node name="HBoxContainer1" type="HBoxContainer" parent="Content/Letters"]
 margin_right = 360.0
-margin_bottom = 34.0
 custom_constants/separation = 2
 alignment = 1
 
-[node name="LetterQ" type="Button" parent="Content/Letters/HBoxContainer1"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="Content/Letters"]
+margin_top = 4.0
+margin_right = 360.0
+margin_bottom = 4.0
+custom_constants/separation = 2
+alignment = 1
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Content/Letters"]
+margin_top = 8.0
+margin_right = 360.0
+margin_bottom = 8.0
+custom_constants/separation = 2
+alignment = 1
+
+[node name="LetterA" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 19.0
+margin_top = 4.0
+margin_right = 53.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 42 )
+text = "A"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterB" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 109.0
+margin_top = 8.0
+margin_right = 143.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 56 )
+text = "B"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterC" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 73.0
+margin_top = 8.0
+margin_right = 107.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 54 )
+text = "C"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterD" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 55.0
+margin_top = 4.0
+margin_right = 89.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 44 )
+text = "D"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterE" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 37.0
+margin_right = 71.0
+margin_bottom = 34.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 34 )
+text = "E"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterF" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 73.0
+margin_top = 4.0
+margin_right = 107.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 45 )
+text = "F"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterG" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 91.0
+margin_top = 4.0
+margin_right = 125.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 46 )
+text = "G"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterH" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 109.0
+margin_top = 4.0
+margin_right = 143.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 47 )
+text = "H"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterI" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 145.0
+margin_right = 179.0
+margin_bottom = 34.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 39 )
+text = "I"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterJ" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 127.0
+margin_top = 4.0
+margin_right = 161.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 48 )
+text = "J"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterK" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 145.0
+margin_top = 4.0
+margin_right = 179.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 49 )
+text = "K"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterL" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 163.0
+margin_top = 4.0
+margin_right = 197.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 50 )
+text = "L"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterM" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 145.0
+margin_top = 8.0
+margin_right = 179.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 58 )
+text = "M"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterN" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 127.0
+margin_top = 8.0
+margin_right = 161.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 57 )
+text = "N"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterO" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 163.0
+margin_right = 197.0
+margin_bottom = 34.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 40 )
+text = "O"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterP" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 163.0
+margin_right = 197.0
+margin_bottom = 34.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 41 )
+text = "P"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterQ" type="Button" parent="Content/Letters"]
+visible = false
 margin_left = 1.0
 margin_right = 35.0
 margin_bottom = 34.0
@@ -1209,37 +1475,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterW" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 37.0
-margin_right = 71.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 33 )
-text = "W"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterE" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 73.0
-margin_right = 107.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 34 )
-text = "E"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterR" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 109.0
-margin_right = 143.0
+[node name="LetterR" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 55.0
+margin_right = 89.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1251,9 +1490,26 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterT" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 145.0
-margin_right = 179.0
+[node name="LetterS" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 37.0
+margin_top = 4.0
+margin_right = 71.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 43 )
+text = "S"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterT" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 73.0
+margin_right = 107.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1265,23 +1521,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterY" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 181.0
-margin_right = 215.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 37 )
-text = "Y"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterU" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 217.0
-margin_right = 251.0
+[node name="LetterU" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 109.0
+margin_right = 143.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
@@ -1293,249 +1536,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterI" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 253.0
-margin_right = 287.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 39 )
-text = "I"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterO" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 289.0
-margin_right = 323.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 40 )
-text = "O"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterP" type="Button" parent="Content/Letters/HBoxContainer1"]
-margin_left = 325.0
-margin_right = 359.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 41 )
-text = "P"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="HBoxContainer2" type="HBoxContainer" parent="Content/Letters"]
-margin_top = 38.0
-margin_right = 360.0
-margin_bottom = 72.0
-custom_constants/separation = 2
-alignment = 1
-
-[node name="LetterA" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 19.0
-margin_right = 53.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 42 )
-text = "A"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterS" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 55.0
-margin_right = 89.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 43 )
-text = "S"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterD" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 91.0
-margin_right = 125.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 44 )
-text = "D"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterF" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 127.0
-margin_right = 161.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 45 )
-text = "F"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterG" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 163.0
-margin_right = 197.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 46 )
-text = "G"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterH" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 199.0
-margin_right = 233.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 47 )
-text = "H"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterJ" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 235.0
-margin_right = 269.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 48 )
-text = "J"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterK" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 271.0
-margin_right = 305.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 49 )
-text = "K"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterL" type="Button" parent="Content/Letters/HBoxContainer2"]
-margin_left = 307.0
-margin_right = 341.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 50 )
-text = "L"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterÜ" type="Button" parent="Content/Letters/HBoxContainer2"]
+[node name="LetterV" type="Button" parent="Content/Letters"]
 visible = false
-margin_left = 325.0
-margin_right = 359.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 51 )
-text = "Ü"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="HBoxContainer3" type="HBoxContainer" parent="Content/Letters"]
-margin_top = 76.0
+margin_top = 12.0
 margin_right = 360.0
-margin_bottom = 110.0
-custom_constants/separation = 2
-alignment = 1
-
-[node name="LetterZ" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 37.0
-margin_right = 71.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 52 )
-text = "Z"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterX" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 73.0
-margin_right = 107.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 53 )
-text = "X"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterC" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 109.0
-margin_right = 143.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 54 )
-text = "C"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterV" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 145.0
-margin_right = 179.0
-margin_bottom = 34.0
+margin_bottom = 46.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
@@ -1546,68 +1551,74 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterB" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 181.0
-margin_right = 215.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 56 )
-text = "B"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterN" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 217.0
-margin_right = 251.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 57 )
-text = "N"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterM" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 253.0
-margin_right = 287.0
-margin_bottom = 34.0
-rect_min_size = Vector2( 34, 34 )
-custom_fonts/font = ExtResource( 5 )
-custom_styles/hover = ExtResource( 6 )
-custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 58 )
-text = "M"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LetterÖ" type="Button" parent="Content/Letters/HBoxContainer3"]
+[node name="LetterW" type="Button" parent="Content/Letters"]
 visible = false
-margin_left = 253.0
-margin_right = 287.0
+margin_left = 19.0
+margin_right = 53.0
 margin_bottom = 34.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
 custom_styles/pressed = ExtResource( 7 )
-custom_styles/normal = SubResource( 59 )
-text = "Ö"
+custom_styles/normal = SubResource( 33 )
+text = "W"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LetterÄ" type="Button" parent="Content/Letters/HBoxContainer3"]
+[node name="LetterX" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 55.0
+margin_top = 8.0
+margin_right = 89.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 53 )
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterY" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 91.0
+margin_right = 125.0
+margin_bottom = 34.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 37 )
+text = "Y"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterZ" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 37.0
+margin_top = 8.0
+margin_right = 71.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 52 )
+text = "Z"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterÄ" type="Button" parent="Content/Letters"]
 visible = false
 margin_left = 271.0
+margin_top = 8.0
 margin_right = 305.0
-margin_bottom = 34.0
+margin_bottom = 42.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
@@ -1618,10 +1629,44 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Backspace" type="Button" parent="Content/Letters/HBoxContainer3"]
-margin_left = 289.0
-margin_right = 323.0
-margin_bottom = 34.0
+[node name="LetterÖ" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 253.0
+margin_top = 8.0
+margin_right = 287.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 59 )
+text = "Ö"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LetterÜ" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 325.0
+margin_top = 4.0
+margin_right = 359.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 34, 34 )
+custom_fonts/font = ExtResource( 5 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = SubResource( 51 )
+text = "Ü"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Backspace" type="Button" parent="Content/Letters"]
+visible = false
+margin_left = 163.0
+margin_top = 8.0
+margin_right = 197.0
+margin_bottom = 42.0
 rect_min_size = Vector2( 34, 34 )
 custom_fonts/font = ExtResource( 5 )
 custom_styles/hover = ExtResource( 6 )
@@ -1633,9 +1678,9 @@ __meta__ = {
 }
 
 [node name="Spacing3" type="Control" parent="Content"]
-margin_top = 623.0
+margin_top = 589.0
 margin_right = 360.0
-margin_bottom = 623.0
+margin_bottom = 589.0
 size_flags_vertical = 2
 
 [node name="Menu" type="ColorRect" parent="."]
@@ -1694,6 +1739,15 @@ anchor_bottom = 1.0
 mouse_filter = 2
 color = Color( 0.203922, 0.243137, 0.313726, 0.784314 )
 
+[node name="ButtonHideScreenRules" type="Button" parent="ScreenRules"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/hover = SubResource( 68 )
+custom_styles/pressed = SubResource( 68 )
+custom_styles/focus = SubResource( 68 )
+custom_styles/disabled = SubResource( 68 )
+custom_styles/normal = SubResource( 68 )
+
 [node name="ColorRect" type="ColorRect" parent="ScreenRules"]
 anchor_left = 0.5
 anchor_top = 0.5
@@ -1703,10 +1757,8 @@ margin_left = -150.0
 margin_top = -290.0
 margin_right = 150.0
 margin_bottom = 290.0
+mouse_filter = 2
 color = Color( 0.537255, 0.639216, 0.780392, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Title" type="Label" parent="ScreenRules/ColorRect"]
 anchor_right = 1.0
@@ -1725,6 +1777,7 @@ margin_left = -135.0
 margin_top = -198.0
 margin_right = 135.0
 margin_bottom = 198.0
+mouse_filter = 2
 custom_fonts/normal_font = SubResource( 66 )
 bbcode_enabled = true
 bbcode_text = "The aim of the game is to guess a 5-letter word within 6 attempts.
@@ -1748,6 +1801,21 @@ Grey letters do not appear in the word"
 fit_content_height = true
 scroll_active = false
 
+[node name="ButtonChangeLanguage" type="Button" parent="ScreenRules/ColorRect"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -130.0
+margin_top = -75.0
+margin_right = 130.0
+margin_bottom = -40.0
+custom_fonts/font = SubResource( 66 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 4 )
+text = "change_lang"
+
 [node name="Reopen" type="Label" parent="ScreenRules/ColorRect"]
 anchor_top = 1.0
 anchor_right = 1.0
@@ -1757,18 +1825,6 @@ custom_fonts/font = SubResource( 65 )
 text = "reopen_rules"
 align = 1
 valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="ButtonHideScreenRules" type="Button" parent="ScreenRules"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_styles/hover = SubResource( 68 )
-custom_styles/pressed = SubResource( 68 )
-custom_styles/focus = SubResource( 68 )
-custom_styles/disabled = SubResource( 68 )
-custom_styles/normal = SubResource( 68 )
 
 [node name="MenuChooseLanguage" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -1849,4 +1905,5 @@ one_shot = true
 [connection signal="pressed" from="Content/Title/ButtonRules" to="." method="_on_ButtonRules_pressed"]
 [connection signal="pressed" from="Menu/CenterContainer/VBoxContainer/ButtonNewGame" to="." method="_on_ButtonNewGame_pressed"]
 [connection signal="pressed" from="ScreenRules/ButtonHideScreenRules" to="." method="_on_ButtonHideScreenRules_pressed"]
+[connection signal="pressed" from="ScreenRules/ColorRect/ButtonChangeLanguage" to="." method="_on_ButtonChangeLanguage_pressed"]
 [connection signal="timeout" from="TimerShowScores" to="." method="show_scores"]

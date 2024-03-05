@@ -15,6 +15,13 @@
 
 extends Control
 
+const keyboard_layouts = {
+	"de": ["qwertzuiop", "asdfghjklü", "yxcvbnmöä"],
+	"en": ["qwertyuiop", "asdfghjkl", "zxcvbnm"],
+	"fr": ["azertyuiop", "qsdfghjklm", "wxcvbn"],
+	"it": ["qwertyuiop", "asdfghjkl", "zxcvbnm"]
+}
+
 func _ready():
 	for child in get_node("Content/VBoxContainer").get_children():
 		child.connect("pressed", self, "load_language", [child.name])
@@ -31,58 +38,41 @@ func load_language(pressed_button: String):
 	else:
 		Main.wordlist_choosable = Main.wordlist
 	Scores.language = language.to_lower()
+	get_parent().load_scores()
 	
 	TranslationServer.set_locale(language.to_lower())
-	if language == "De":
-		show_mutated_vowels()
-		exchange_yz()
-	if language == "Fr":
-		keyboard_layout_azerty()
+	load_keyboard_layout(keyboard_layouts[language.to_lower()])
 
 	get_node("../ScreenRules/ColorRect/Rules").bbcode_text = tr("rules")
 	Main.word_amount_choosable = (Main.wordlist_choosable.length() + 1) / 6
 
 	Main._on_ButtonNewGame_pressed()
 	get_node("../ScreenRules").show()
-	queue_free()
+	hide()
 
-func exchange_yz():
-	var row1 = get_node("../Content/Letters/HBoxContainer1")
-	var row3 = get_node("../Content/Letters/HBoxContainer3")
-	var letter_y = get_node("../Content/Letters/HBoxContainer1/LetterY")
-	var letter_z = get_node("../Content/Letters/HBoxContainer3/LetterZ")
-	row1.remove_child(letter_y)
-	row3.remove_child(letter_z)
-	row1.add_child(letter_z)
-	row1.move_child(letter_z, 5)
-	row3.add_child(letter_y)
-	row3.move_child(letter_y, 0)
+func load_keyboard_layout(layout: Array):
+	var Letters = get_node("../Content/Letters")
+	var row_id := 0
+	for row in layout:
+		var RowNode = Letters.get_child(row_id)
+		for letter in row:
+			var LetterNode = Letters.get_node("Letter" + letter.to_upper())
+			Letters.remove_child(LetterNode)
+			RowNode.add_child(LetterNode)
+			LetterNode.show()
+		row_id += 1
+	
+	var Backspace = Letters.get_node("Backspace")
+	Letters.remove_child(Backspace)
+	Letters.get_child(2).add_child(Backspace)
+	Backspace.show()
 
-func show_mutated_vowels():
-	get_node("../Content/Letters/HBoxContainer2/LetterÜ").show()
-	get_node("../Content/Letters/HBoxContainer3/LetterÖ").show()
-	get_node("../Content/Letters/HBoxContainer3/LetterÄ").show()
+func reset_keyboard_layout():
+	var Letters = get_node("../Content/Letters")
+	for row in range(3):
+		var CurrentRow = Letters.get_child(row)
+		for Letter in CurrentRow.get_children():
+			CurrentRow.remove_child(Letter)
+			Letters.add_child(Letter)
+			Letter.hide()
 
-func keyboard_layout_azerty():
-	var row1 = get_node("../Content/Letters/HBoxContainer1")
-	var row2 = get_node("../Content/Letters/HBoxContainer2")
-	var row3 = get_node("../Content/Letters/HBoxContainer3")
-
-	var letter_q = row1.get_node("LetterQ")
-	var letter_w = row1.get_node("LetterW")
-	row1.remove_child(letter_q)
-	row1.remove_child(letter_w)
-
-	var letter_a = row2.get_node("LetterA")
-	letter_a.replace_by(letter_q)
-
-	var letter_z = row3.get_node("LetterZ")
-	var letter_m = row3.get_node("LetterM")
-	letter_z.replace_by(letter_w)
-	row3.remove_child(letter_m)
-
-	row1.add_child(letter_a)
-	row1.move_child(letter_a, 0)
-	row1.add_child(letter_z)
-	row1.move_child(letter_z, 1)
-	row2.add_child(letter_m)

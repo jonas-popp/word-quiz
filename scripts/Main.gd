@@ -38,10 +38,7 @@ func _ready():
 			Letter.connect("pressed", self, "letter_pressed", [Letter])
 
 	if Scores.language != "":
-		var scores = Scores.get_scores()
-		score = scores[0]
-		highscore = scores[1]
-		show_scores()
+		load_scores()
 		get_node("MenuChooseLanguage").load_language(Scores.language.capitalize())
 		get_node("ScreenRules").hide()
 
@@ -174,6 +171,12 @@ func end_game(win: bool):
 	get_node("Menu").show()
 	get_node("Menu").mouse_filter = MOUSE_FILTER_STOP
 
+func load_scores():
+	var scores = Scores.get_scores()
+	score = scores[0]
+	highscore = scores[1]
+	show_scores()
+
 func _on_ButtonNewGame_pressed():
 	try = 0
 	word = ""
@@ -206,3 +209,8 @@ func _on_ButtonHideScreenRules_pressed():
 	var SR = get_node("ScreenRules")
 	SR.mouse_filter = MOUSE_FILTER_IGNORE
 	SR.hide()
+
+func _on_ButtonChangeLanguage_pressed():
+	get_node("ScreenRules").hide()
+	get_node("MenuChooseLanguage").reset_keyboard_layout()
+	get_node("MenuChooseLanguage").show()
